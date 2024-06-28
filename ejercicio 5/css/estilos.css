@@ -1,0 +1,54 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
+    margin: 0;
+}
+@media (min-width:1170px) and (max-width: 2000px){
+    .contenedor2{
+        display: none;
+    }
+    table{
+        border: 3px;
+        width: 80%;
+        border-spacing: 0;
+    }
+    th{
+        background-color: rgb(7, 91, 11);
+        color: bisque;
+    }
+    td{
+        text-align: center;
+        padding: 10px;
+        border: 1px solid rgba(255, 126, 84, 0.574);
+    }
+    tr:nth-child(odd){/*even*/
+        background-color: rgba(45, 228, 167, 0.877);
+        color: azure;
+    }
+    .descripcion{
+        width: 40%;
+    }
+    .contenedor1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+    
+    @media(min-width: 300px;) and (max-width: 1169px;){
+        .contenedor1{
+            display: none;
+        }
+        .personaje{
+            text-align: center;
+            background-color: aquamarine;
+            font-size: 20px;
+        }
+        .perso{
+            border-radius: 5px;
+            margin-top: 20px;
+            margin-left: 20%;
+            margin-right: 20%;
+            background-color: azure;
+        }
+    }
